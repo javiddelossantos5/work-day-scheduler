@@ -91,7 +91,7 @@ window.onload = function(){
     } else if (now < 17) {
       $("#comment5pm").addClass("future");
     }
-  }
+  };
   
   
   // WHEN I click into a timeblock
@@ -101,7 +101,7 @@ window.onload = function(){
   // WHEN I refresh the page
   // THEN the saved events persist
   
-  function nineAM() {
+var nineAM = function() {
     var input_textarea = document.querySelector("#comment9am");
     var output_div = document.querySelector("#comment9am");
     var save_button = document.querySelector("#button9am");
@@ -116,11 +116,11 @@ window.onload = function(){
   
       output_div.textContent = input_textarea.value;
     }
-  }
+  };
   
   
   
-  function tenAM() {
+var tenAM = function() {
     var input_textarea2 = document.querySelector("#comment10am");
     var output_div2 = document.querySelector("#comment10am");
     var save_button2 = document.querySelector("#button10am");
@@ -135,10 +135,10 @@ window.onload = function(){
   
       output_div2.textContent = input_textarea2.value;
     }
-  }
+  };
   
   
-  function elevenAM() {
+var elevenAM = function() {
     var input_textarea3 = document.querySelector("#comment11am");
     var output_div3 = document.querySelector("#comment11am");
     var save_button3 = document.querySelector("#button11am");
@@ -156,7 +156,7 @@ window.onload = function(){
   }
   
   
-  function twelvePM() {
+var twelvePM = function() {
     var input_textarea4 = document.querySelector("#comment12pm");
     var output_div4 = document.querySelector("#comment12pm");
     var save_button4 = document.querySelector("#button12pm");
@@ -171,10 +171,10 @@ window.onload = function(){
   
       output_div4.textContent = input_textarea4.value;
     }
-  }
+  };
   
   
-  function onePM() {
+var onePM = function() {
     var input_textarea5 = document.querySelector("#comment1pm");
     var output_div5 = document.querySelector("#comment1pm");
     var save_button5 = document.querySelector("#button1pm");
@@ -192,7 +192,7 @@ window.onload = function(){
   }
   
   
-  function twoPM() {
+ var twoPM = function() {
     var input_textarea6 = document.querySelector("#comment2pm");
     var output_div6 = document.querySelector("#comment2pm");
     var save_button6 = document.querySelector("#button2pm");
@@ -207,10 +207,10 @@ window.onload = function(){
   
       output_div6.textContent = input_textarea6.value;
     }
-  }
+  };
   
   
-  function threePM() {
+var threePM = function() {
     var input_textarea7 = document.querySelector("#comment3pm");
     var output_div7 = document.querySelector("#comment3pm");
     var save_button7 = document.querySelector("#button3pm");
@@ -225,10 +225,10 @@ window.onload = function(){
   
       output_div7.textContent = input_textarea7.value;
     }
-  }
+  };
   
   
-  function fourPM() {
+var fourPM = function() {
     var input_textarea8 = document.querySelector("#comment4pm");
     var output_div8 = document.querySelector("#comment4pm");
     var save_button8 = document.querySelector("#button4pm");
@@ -243,10 +243,10 @@ window.onload = function(){
   
       output_div8.textContent = input_textarea8.value;
     }
-  }
+  };
   
   
-  function fivePM() {
+var fivePM = function() {
     var input_textarea9 = document.querySelector("#comment5pm");
     var output_div9 = document.querySelector("#comment5pm");
     var save_button9 = document.querySelector("#button5pm");
@@ -261,6 +261,6 @@ window.onload = function(){
   
       output_div9.textContent = input_textarea9.value;
     }
-  }
+  };
   
   
